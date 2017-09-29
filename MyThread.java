@@ -9,6 +9,7 @@ package countthread;
  *
  * @author Carynne
  */
+
 public class MyThread extends Thread {
 
     public static void main(String[] args) {
