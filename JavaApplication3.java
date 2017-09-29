@@ -38,7 +38,7 @@ public class JavaApplication3 extends Thread {
             for (x = 0; x < 10; x++) {
                 System.out.print((x+1) + " ");
                 sleep(2000);
-                printA(x+1);
+                printA(x+1); 
             }
         } catch (Exception e) {
             e.printStackTrace();
