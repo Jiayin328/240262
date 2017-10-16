@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class SequentialConcurrent {
+public class SequentialConcurrent extends Thread {
     static ArrayList<Integer> list = new ArrayList<>();
     static int random;
     static long num, begin, end, SeqDuration, ConDuration;
